@@ -11,7 +11,7 @@
 /* モバイル向けのレイアウト*/
 @media all and (max-width:670px){
 .header-logo{
-  font-size:18px;
+  font-size:15px;
 }
 .index-btn{
   width:48%;
@@ -26,4 +26,21 @@
 .exprain-wrapper p{
   font-size:15px
 }
+.mobile-right{
+  width:80px;
+}
+header{
+  height:80px;
+}
+.header-logo{
+
+line-height: 80px;
+}
+.mobile-menu{
+  line-height: 80px;
+}
+.menu-lists{
+  line-height: 80px;
+}
+
 }
