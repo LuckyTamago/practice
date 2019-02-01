@@ -1,0 +1,213 @@
+header{
+  height: 105px;
+  position:fixed;
+  width:100%;
+  top:0;
+  z-index:10;
+
+  background-color:rgba(255,255,255,0.9);
+}
+body{
+  margin:0;
+}
+
+.header-left{
+  float:left;
+  color:darkgray;
+}
+.header-logo{
+  font-size: 30px;
+margin:0;
+line-height: 105px;
+}
+.header-right{
+  float:right;
+}
+
+  .header-right li{
+    float:left;
+    padding-right:40px;
+    line-height: 65px;
+  }
+  .btn:hover{
+    color:black;
+    font-size:16px
+  }
+.menu:hover{
+  color:black;
+}
+.mobile-right{
+  float:right;
+  width:100px;
+  text-align:center;
+  background-color:rgba(230,230,230,0.9);
+  font-size: 13px;
+}
+.mobile-menu{
+  display:none;
+
+  line-height:105px;
+
+
+}
+.menu-lists{
+  display:none;
+padding:0;
+  margin:0;
+line-height:105px;
+
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:darkgray;
+
+  transition:all 0.5s;
+}
+.container{
+  padding:0 15px;
+  width:90%;
+  margin: 0 auto;
+}
+.top-wrapper{
+    padding-top:180px;
+    padding-bottom:130px;
+    text-align: center;
+    background-image:url(IMG_3.jpeg);
+    background-size:cover;
+
+
+
+}
+.top-wrapper p{
+  font-size: 40px;
+  padding:60px 0;
+
+}
+.lists-wrapper{
+  text-align:center;
+
+}
+
+.index-btn{
+  float:left;
+  width:23%;
+margin-right:2%;
+   display:inline-block;
+   box-sizing:border-box;
+   font-size:30px;
+   padding:40px 0;
+   cursor:pointer;
+   font-weight: bold;
+   transition: all 1.5s;
+}
+
+
+.index-btn:hover{
+  background-color:LightGoldenrodYellow;
+}
+
+.index-lists{
+
+  padding-bottom:30px;
+  padding-top:30px;
+  display:flow-root;
+}
+.salon-contents{
+  display:none;
+}
+.salon-name{
+  display:none;
+}
+.active{
+  display:block;
+}
+.slide-names{
+  border-top: 1px solid gainsboro;
+}
+.salon-name{
+  font-size: 40px;
+  color:black;
+  padding-bottom:30px;
+  padding-top:20px;
+
+}
+.salon-contents{
+  font-size: 30px;
+  color:dimgray;
+}
+.exprain-wrapper{
+  text-align: center;
+  margin-top:50px;
+  background-image:url(IMG_4.jpeg);
+  background-size:cover;
+
+}
+.image-mask{
+
+  background: rgba(255,255,255,0.8);
+  height:100%;
+
+
+}
+
+.exprain-wrapper h2{
+  font-size:30px;
+  padding: 30px;
+
+}
+.border{
+  border-top: 1px solid gainsboro;
+}
+.exprain-wrapper p{
+  font-size:20px;
+margin:0;
+}
+footer{
+  text-align:center;
+  padding-bottom:50px;
+  background-color: WhiteSmoke;
+  border-top: 1px solid gainsboro;
+
+
+}
+footer h2{
+
+  padding:50px 0;
+}
+form{
+width:60%;
+margin:0 auto;
+  display:flow-root;
+}
+input,textarea{
+  padding:30px;
+  display:block;
+  width:60%;
+  margin:0 auto;
+
+  box-sizing: border-box;
+  border:1px solid Gainsboro;
+opacity: 0.7;
+}
+.contact-form .left{
+  padding-left:50px;
+  text-align: left;
+  }
+.submit-btn{
+  float:center;
+  margin-top:15px;
+  padding:20px 50px;
+  border:1px solid Gainsboro;
+opacity: 0.7;
+font-size: 20px;
+font-weight: bold;
+ cursor:pointer;
+ color:White;
+background-color:DeepSkyBlue;
+}
+.submit-btn:hover{
+  opacity: 1;
+}
