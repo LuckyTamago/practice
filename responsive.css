@@ -1,0 +1,29 @@
+/* タブレット向けのレイアウト*/
+@media all and (max-width:871px){
+.header-right{
+  display:none;
+}
+.mobile-menu{
+  display:block;
+}
+
+}
+/* モバイル向けのレイアウト*/
+@media all and (max-width:670px){
+.header-logo{
+  font-size:18px;
+}
+.index-btn{
+  width:48%;
+
+}
+.salon-contents{
+  font-size:20px;
+}
+.exprain-wrapper h2{
+  font-size:25px}
+
+.exprain-wrapper p{
+  font-size:15px
+}
+}
