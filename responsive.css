@@ -1,4 +1,3 @@
-/* タブレット向けのレイアウト*/
 @media all and (max-width:871px){
 .header-right{
   display:none;
@@ -42,5 +41,6 @@ line-height: 80px;
 .menu-lists{
   line-height: 80px;
 }
-
+.contact-form .left{
+  padding-left:10px;
 }
