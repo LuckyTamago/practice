@@ -127,6 +127,9 @@ margin-right:2%;
 .slide-names{
   border-top: 1px solid gainsboro;
 }
+.slides{
+  padding:0;
+}
 .salon-name{
   font-size: 40px;
   color:black;
